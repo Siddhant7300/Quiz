@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container" id="con">
+        <div class="header">
+            <div class="logo">
+                <p>Quiz</p>
+            </div>
+            <div id="item">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="content">
+                <h1>Welcome to the Quiz</h1>
+                <p>Embark on a coding adventure with our Quiz Challenge! This dynamic quiz is packed with intriguing
+                    questions covering a variety of coding concepts. The user-friendly interface offers a sleek design
+                    for an optimal viewing experience. Each question is elegantly displayed, and answer choices are
+                    neatly organized. The quiz concludes with a "Submit Quiz" button, triggering a JavaScript function
+                    that can be personalized for scoring or feedback. Immerse yourself in this coding challenge and put
+                    your programming knowledge to the test!</p>
+                <button class="start" id="start" onclick="appear()">start quiz</button>
+            </div>
+        </div>
+    </div>
+    <div class="pop-up">
+        <div class="pop-child">
+            <h1>QUIZ Guide</h1>
+            <p>(1):-Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, odit?</p>
+            <p>(2):-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, alias?</p>
+            <p>(3):-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, asperiores.</p>
+            <p>(4):-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, quos.</p>
+            <p>(5):-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, incidunt!</p>
+            <div class="popup-btn">
+                <button id="exit" onclick="exit()">Exiz Quiz</button>
+                <button><a href="box.html">Continue</a></button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
